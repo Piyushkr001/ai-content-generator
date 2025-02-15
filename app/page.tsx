@@ -1,11 +1,17 @@
 import { Button } from "@/components/ui/button";
+import Navbar from "./dashboard/components/Navbar";
+import HeroSection from "./dashboard/components/HeroSection";
 
 
 export default function Home() {
   return (
-  <div>
-    <h1>Home</h1>
-    <Button> Click me</Button>
-  </div>
+    <div>
+      <div>
+          <Navbar/>
+      </div>
+      <div>
+         <HeroSection/>
+      </div>
+    </div>
   );
 }
