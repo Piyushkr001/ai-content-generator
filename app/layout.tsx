@@ -19,10 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-    <html lang="en">
-    <body className={`${nunito.className} antialiased`}>
+    <html lang="en" suppressHydrationWarning>
+    <body suppressHydrationWarning className={`${nunito.className} antialiased`}>
         {children}
-      </body>
+    </body>
     </html>
     </ClerkProvider>
   );

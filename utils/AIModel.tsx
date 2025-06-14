@@ -11,7 +11,7 @@ const {
     model: "gemini-2.0-flash",
   });
   
-  const generationConfig = {
+  const generationConfig = {    
     temperature: 1,
     topP: 0.95,
     topK: 40,
